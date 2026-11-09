@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "chris-10",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -40,11 +40,12 @@
   },
   "akses": {
     "tailscale": {
-      "ip": "100.88.41.97",
-      "magicdns": "chris-10.taila8f3b4.ts.net.",
-      "hostname": "Chris-10",
       "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale"
   },
@@ -145,5 +146,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-11-09T21:48:59.2105364Z"
+  "heartbeat_at": "2026-11-09T21:48:59.2105364Z",
+  "stopped_at": "2026-11-09T21:50:06Z"
 }
