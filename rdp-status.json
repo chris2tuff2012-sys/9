@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "chris-7",
+  "active": true,
+  "hostname": "chris-8",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "cpu_threads": 4,
+    "ram_gb": 16.0,
     "disk_free_gb": 31.2
   },
   "rdp_port": 3389,
   "rdp_user": "Lilnaay",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-09T08:21:39Z",
-  "expires_at": "2026-11-09T14:16:39Z",
+  "started_at": "2026-11-09T08:23:43Z",
+  "expires_at": "2026-11-09T14:18:43Z",
   "duration_menit": 355,
-  "run_id": "42585339562",
+  "run_id": "42585582703",
   "run_attempt": "1",
-  "run_number": "7",
-  "run_url": "https://github.com/chris2tuff2012-sys/9/actions/runs/42585339562",
+  "run_number": "8",
+  "run_url": "https://github.com/chris2tuff2012-sys/9/actions/runs/42585582703",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,13 +41,17 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
-      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "magicdns": "chris-8.taila8f3b4.ts.net.",
+      "ip": "100.91.229.84",
+      "hostname": "Chris-8",
+      "status": "ok"
     }
   },
-  "stopped_at": "2026-11-09T08:21:51Z"
+  "media": {
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "microphone": "disabled",
+    "audio_output": "rdp_playback_enabled"
+  }
 }
