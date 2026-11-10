@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "chris-12",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -42,9 +42,10 @@
     "tailscale": {
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "ip": "100.127.164.12",
-      "magicdns": "chris-12.taila8f3b4.ts.net.",
-      "hostname": "Chris-12"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale"
   },
@@ -53,5 +54,6 @@
     "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "wallpaper": "xyverse_configured_for_user_logon"
-  }
+  },
+  "stopped_at": "2026-11-10T05:06:59Z"
 }
