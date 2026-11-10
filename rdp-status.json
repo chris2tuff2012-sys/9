@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "chris-12",
+  "active": true,
+  "hostname": "chris-13",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
     "ram_gb": 16.0,
-    "disk_free_gb": 31.2
+    "disk_free_gb": 31.2,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "Lilnaay",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-10T05:04:39Z",
-  "expires_at": "2026-11-10T10:59:39Z",
+  "started_at": "2026-11-10T05:08:15Z",
+  "expires_at": "2026-11-10T11:03:15Z",
   "duration_menit": 355,
-  "run_id": "42759782601",
+  "run_id": "42760167193",
   "run_attempt": "1",
-  "run_number": "12",
-  "run_url": "https://github.com/chris2tuff2012-sys/9/actions/runs/42759782601",
+  "run_number": "13",
+  "run_url": "https://github.com/chris2tuff2012-sys/9/actions/runs/42760167193",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,20 +40,18 @@
   },
   "akses": {
     "tailscale": {
+      "magicdns": "chris-13.taila8f3b4.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "status": "ok",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "hostname": "Chris-13",
+      "ip": "100.110.174.96",
+      "status": "ok"
     },
     "mode": "tailscale"
   },
   "media": {
-    "microphone": "disabled",
-    "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "wallpaper": "xyverse_configured_for_user_logon"
-  },
-  "stopped_at": "2026-11-10T05:06:59Z"
+    "microphone": "disabled",
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "audio_output": "rdp_playback_enabled"
+  }
 }
